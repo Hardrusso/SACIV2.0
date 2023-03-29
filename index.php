@@ -8,11 +8,11 @@
                 <div class="card-body">
                     <h1>SACI</h1>
                     <h2>SISTEMA DE ACCESO Y CONTROL DE INGRESO </h2>
-                    <a href="" class="btn btn-primary">
+                    <a href="./agregar.php" class="btn btn-primary">
                     <i class="fa-solid fa-user-plus"></i> Agregar Nuevo Registo
                     </a>
                     <hr>
-                    <table class="table table-sm table-hover table.berdered">
+                    <table class="table table-sm table-hover table-bordered">
                         <thead>
                             <th>Nombre</th>
                             <th>Apellido</th>
@@ -41,7 +41,7 @@
                                     </form>
                                 </td>
                                 <td class="text-center">
-                                <form action="" method="post">
+                                    <form action="" method="post">
                                         <button class="btn btn-danger">
                                         <i class="fa-solid fa-user-xmark"></i>
                                         </button>
@@ -49,7 +49,6 @@
                                 </td>
                             </tr>
                         </tbody>
-
                     </table>
                 </div>
             </div>

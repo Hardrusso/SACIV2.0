@@ -10,7 +10,7 @@
 					</a>
 					<h1>SACI</h1>
 					<h2>SISTEMA DE ACCESO Y CONTROL DE INGRESO </h2>
-					<h2>Agregar Nuevo Registro</h2>
+					<h2>Actualizar Registro</h2>
 				</div>
 			</div>
 		</div>
@@ -18,7 +18,7 @@
 </div>
 
 
-<form id="form1" action="" method="post">
+<form id="form1" action="registro.php" method="post">
 		<label for="nombre">Nombres:</label>
 		<input type="text" name="nombre" id="nombre" required><br>
 
@@ -75,8 +75,8 @@
 		<label for="otros">Características Elemento a Registrar:</label>
 		<input type="text" name="otros" id="otros" required><br>
    
-	<button class="btn btn-primary mt-3">
-		<i class="fa-solid fa-floppy-disk"></i> Agregar Nuevo Registro
+	<button class="btn btn-warning mt-3">
+		<i class="fa-solid fa-floppy-disk"></i> Actualizar
 	</button>
 </form>
 
