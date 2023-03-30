@@ -10,7 +10,7 @@ db.personas.insertOne({
   "Ficha" : "2557736",
   "Nombre_del_Programa": "ADSO",
   "Elemento_a_Registrar": "Computador Portátil",
-  "Placa_-_Serial" : "123456789",
+  "Placa_o_Serial" : "123456789",
   "Caracteristicas_del_Elemento" : "Color Gris Lenovo",
   "Codigo_de_Barras" : "4564654"
 });

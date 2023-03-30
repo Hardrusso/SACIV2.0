@@ -18,7 +18,7 @@
 </div>
 
 
-<form id="form1" action="" method="post">
+<form id="form1" action="./procesos/insertar.php" method="post">
 		<label for="nombre">Nombres:</label>
 		<input type="text" name="nombre" id="nombre" required><br>
 
